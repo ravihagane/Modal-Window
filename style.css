@@ -18,7 +18,7 @@ body {
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  background: linear-gradient(to top left, #28b487, #7dd56f);
+  background: linear-gradient(to top left, #28abb4, #d1c44d);
 }
 
 .show-modal {
@@ -82,4 +82,11 @@ p {
   background-color: rgba(0, 0, 0, 0.6);
   backdrop-filter: blur(3px);
   z-index: 5;
+}
+
+@media (hover: hover) {
+  .show-modal:hover {
+    background-color: #333;
+    color: aliceblue;
+  }
 }
